@@ -27,3 +27,52 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {  
+  line-height: 72px;
+}
+
+.header {
+  font-weight: 1000;
+  font-size: larger;
+  text-indent: 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  text-indent: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deck {
+  display: flex;
+}
+
+.card {
+  width: 250px;
+}
